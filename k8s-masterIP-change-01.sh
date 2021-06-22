@@ -57,7 +57,7 @@ done
 grep -Hn $dir/* -e $oldip
 
 
-echo -e "\n\n\n******** Now, Find old ip: $oldip and Updte to new ip: $newip ********\n"
+echo -e "\n\n\n******** Now, Find OLD IP: $oldip and Updte to NEW IP: $newip ********\n"
 echo "kubectl --server=https://kubernetes:6443 -n kube-system edit cm kubeadm-config"
 echo -e "kubectl --server=https://kubernetes:6443 -n kube-system edit cm kube-proxy\n"
 

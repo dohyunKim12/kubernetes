@@ -11,4 +11,4 @@ sed -i "s/    server: https:\/\/$oldip:6443/    server: https:\/\/$newip:6443/" 
 
 systemctl restart kubelet
 
-echo -e "\n\nDONE! Now Run 'kubectl get nodes' in Control-plane\n"
+echo -e "\n\nDONE! Now Run 'kubectl get nodes' in Control-Plane\n"
