@@ -18,5 +18,4 @@ cd kubernetes
 ./k8s-masterIP-change-worker.sh
 ```
 
-### License
 [![license](https://img.shields.io/github/license/gluesys/sshell.svg?style=flat-square)](https://github.com/dohyunkim12/kubernetes/blob/master/LICENSE)
