@@ -41,7 +41,7 @@ cat <<EOF | tee /etc/hosts
 $newip kubernetes
 EOF
 
-sleep 5
+sleep 3
 
 # kube-system 내 configmap에서 이전ip를 신규ip로 수정
 
@@ -69,6 +69,7 @@ kubectl --server=https://kubernetes:6443 apply -f kube-proxy.yaml
 
 
 # number 2
+
 cd /etc/kubernetes/pki
 
 rm apiserver.crt apiserver.key
